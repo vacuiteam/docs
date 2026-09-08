@@ -16,7 +16,7 @@ It is developed in multiple languages - Golang, C++ and C.
 _Purpose_: Efficient code that is fast to write.
 
 **C++** is used in the OS kernel, system modules and private SDKs.
-_Purpose_: Memory stability.
+_Purpose_: Memory stability and organization of code.
 
 **C** is used in the public SDK of VacuiOS. _Purpose_: High accessibility
 in other programming languages, and ABI stability.
