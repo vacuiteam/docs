@@ -76,11 +76,11 @@ that obviously does not belong to it. It makes code more clear, focused and read
 feature affects somebody's components, interact with its sub-team. Communication is
 not an enemy but a key to solving specific tasks and issues.
 
-# Contacts
+# Joining the team
 
-To join the development team, contact the founder writing to their email:
+To join the Vacui development team, contact the founder writing to their email:
 **dywoq <dywoq.contact@gmail.com>**. You will be asked questions that
-test your knowledge of the operating system development's foundation,
-overall programming concepts, and base software tools (e.g. Git).
+test your base knowledge of the operating system development,
+overall programming skills, and software tools (e.g. Git).
 The test is a live video meeting with cameras on (or, if you are unconformable,
 you can disable your video camera). It is a talk between two engineers.
