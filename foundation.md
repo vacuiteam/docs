@@ -38,7 +38,7 @@ components above.
 
 - **Founder** - The project founder (dywoq). They are project's head maintainer.
   The founder reviews, accepts or cancels incoming changes in critical components'
-  repositories.
+  repositories. They shape and lead the project's development direction.
 
 - **Sub-teams**: To manage a complex source tree, the development team is divided into
   sub-teams. A sub-team is responsible for maintaining a specific component (e.g. the kernel,
@@ -53,7 +53,7 @@ shown below, are not mutually exclusive.
 1. **Document It** - Document your component, its architecture and procedures
    instead of dreaming it. It must be done before writing code. It reduces cost
    of making changes in future. Ensure somebody else can implement a component ONLY
-   following a component's specification.
+   following a component's specification. If they do not, fix a specification.
 
 2. **Make It Once** - If you program the same piece of code (such as string manipulation,
    utility functions) over and over again in various components, you should make it
