@@ -8,7 +8,7 @@ work principles. It is intended for:
 
 # Definition
 
-The Vacui is a collection of modular development tools, components and
+The Vacui project is a collection of modular development tools, components and
 libraries. It has a codename VQ, which stands for "**V**acui **Q**uarter".
 It is developed in multiple languages - Golang, C++ and C.
 
