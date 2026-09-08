@@ -1,10 +1,7 @@
 # Introduction
 
-This document overviews the Vacui project, its development team's structure and
-work principles. It is intended for:
-
-- future development team members or newbies
-- project contributors
+This document gives an overview of Vacui, its development team's structure and work principles.
+It is intended for future development team members or newbies.
 
 # Definition
 
@@ -12,14 +9,15 @@ The Vacui project is a collection of modular development tools, components and
 libraries. It has a codename VQ, which stands for "**V**acui **Q**uarter".
 It is developed in multiple languages - Golang, C++ and C.
 
-**Golang** is used in VacuiHW, OS development tools and the build orchestrator.
-_Purpose_: Efficient code that is fast to write.
+- **Golang** is used in VacuiHW, OS development tools and the build orchestrator.
+  **Purpose**: Efficient code that is fast to write.
 
-**C++** is used in the OS kernel, system modules and private SDKs.
-_Purpose_: Memory stability and organization of code.
+- **C++** is used in the VacuiOS kernel, boot loader, system modules
+  and private libraries.
+  **Purpose**: Memory stability and organization of code.
 
-**C** is used in the public SDK of VacuiOS. _Purpose_: High accessibility
-in other programming languages, and ABI stability.
+- **C** is used in the software development kit of VacuiOS.
+  **Purpose**: ABI stability.
 
 The project consists of the following major components. They have
 sub-components, which have their own repositories in the organization `vacuiteam`:
