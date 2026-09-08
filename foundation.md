@@ -23,9 +23,8 @@ in other programming languages, and ABI stability.
 
 The project consists of the following major components:
 
-**VacuiHW** - A virtual hardware emulator.
-
-**VacuiOS** - A hybrid operating system that is intended to run on VacuiHW.
+- **VacuiHW** - A virtual hardware emulator.
+- **VacuiOS** - A hybrid operating system that is intended to run on VacuiHW.
 
 Future corresponding documents provide a comprehensive treatment of the
 components above.
