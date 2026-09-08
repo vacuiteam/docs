@@ -29,6 +29,14 @@ The project consists of the following major components:
 Future corresponding documents provide a comprehensive treatment of the
 components above.
 
+# Project Goals
+
+- Establish a well-defined, stable and documented platform to create
+  software for.
+
+- Integrate social interaction and communication into the project
+  as one of the foundational parts.
+
 # Development Team
 
 ## Structure
