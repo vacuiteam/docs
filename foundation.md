@@ -21,13 +21,15 @@ _Purpose_: Memory stability and organization of code.
 **C** is used in the public SDK of VacuiOS. _Purpose_: High accessibility
 in other programming languages, and ABI stability.
 
-The project consists of the following major components:
+The project consists of the following major components. They have
+sub-components, which have their own repositories in the organization `vacuiteam`:
 
 - **VacuiHW** is a virtual hardware emulator. It has two sub-components:
-  **Application** and **SDK**.
+  **Application** (`vacuiteam/hwapp`) and **SDK** (`vacuiteam/hwsdk`).
 
 - **VacuiOS** is a hybrid operating system running on VacuiHW.
-  It has several sub-components: **Core**, **SDK** and **Tools**.
+  It has several sub-components: **Core** (`vacuiteam/oscore`),
+  **SDK** (`vacuiteam/ossdk`) and **Development tools** (`vacuiteam/ostools`).
 
 Future corresponding documents provide a comprehensive treatment of the
 components above.
