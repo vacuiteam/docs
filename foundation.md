@@ -70,4 +70,4 @@ To join the development team, contact the founder writing to their email:
 test your knowledge of at least operating system development's foundation,
 overall programming concepts, and base software tools (e.g. Git).
 The test is a live video meeting with cameras on (or, if you are unconformable, 
-you can disable your video camera).
+you can disable your video camera). It will be a talk of two engineers.
