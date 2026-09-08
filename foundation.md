@@ -44,3 +44,19 @@ components above.
   sub-teams. A sub-team is responsible for maintaining a specific component (e.g. a kernel,
   boot loader, libraries, specific tool etc.). If needed, sub-team members can communicate
   with other sub-teams, if a specific feature or bug fix affects other components.
+
+## Work Principles
+
+Work principles establish long-term planning and prevent early designing and architectural
+mistakes. Development team members shall consider them. The work principles, which are
+shown below, are not mutually exclusive.
+
+1. **Document It** - Document your component, its architecture and procedures
+   instead of dreaming about it. It reduces cost of making changes in future.
+
+2. **Make It Once** - If you program the same piece of code (such as string manipulation,
+   utility functions) over and over again in various components, you should make it
+   an external library. It prevents you from writing boilerplate.
+
+3. **Separate Its Concerns** - You do not mix component or library code with something
+   that obviously does not belong to it. It makes code more clear, focused and readable.
