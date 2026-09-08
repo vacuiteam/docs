@@ -67,7 +67,7 @@ not an enemy but a key to solving specific tasks and issues.
 
 To join the development team, contact the founder writing to their email:
 **dywoq <dywoq.contact@gmail.com>**. You will be asked questions that
-test your knowledge of at least operating system development's foundation,
+test your knowledge of the operating system development's foundation,
 overall programming concepts, and base software tools (e.g. Git).
-The test is a live video meeting with cameras on (or, if you are unconformable, 
-you can disable your video camera). It will be a talk between two engineers.
+The test is a live video meeting with cameras on (or, if you are unconformable,
+you can disable your video camera). It is a talk between two engineers.
