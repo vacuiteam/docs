@@ -61,7 +61,7 @@ shown below, are not mutually exclusive.
 3. **Separate Its Concerns** - You do not mix component or library code with something
    that obviously does not belong to it. It makes code more clear, focused and readable.
 
-4. **Communication Is A Key** - Create a discussion inside our organization `vacuiteam/discussions`.
-   If you do not understand something, ask a question. If specific feature affects
-   somebody's components, interact with sub-teams. Communication is not an enemy
-   but a key to solving specific task and issue.
+4. **Communication Is A Key** - Create a discussion inside our organization's repository
+   `vacuiteam/discussions`. If you do not understand something, ask a question. If a specific
+   feature affects somebody's components, interact with sub-teams. Communication is
+   not an enemy but a key to solving specific task and issue.
