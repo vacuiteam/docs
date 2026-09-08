@@ -36,8 +36,8 @@ components above.
 
 ## Structure
 
-- **Founder** - The project founder (dywoq). They are head maintainer and responsible
-  for reviewing, accepting or cancelling incoming changes in critical components'
+- **Founder** - The project founder (dywoq). They are project's head maintainer.
+  The founder reviews, accepts or cancels incoming changes in critical components'
   repositories.
 
 - **Sub-teams**: To manage a complex source tree, the development team is divided into
