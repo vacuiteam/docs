@@ -62,3 +62,12 @@ that obviously does not belong to it. It makes code more clear, focused and read
 `vacuiteam/discussions`. If you do not understand something, ask a question. If a specific
 feature affects somebody's components, interact with its sub-team. Communication is
 not an enemy but a key to solving specific tasks and issues.
+
+# Contacts
+
+To join the development team, contact the founder writing to their email:
+**dywoq <dywoq.contact@gmail.com>**. You will be asked questions that
+test your knowledge of at least operating system development's foundation,
+overall programming concepts, and base software tools (e.g. Git).
+The test is a live video meeting with cameras on (or, if you are unconformable, 
+you can disable your video camera).
