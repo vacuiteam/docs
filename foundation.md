@@ -42,5 +42,5 @@ components above.
 
 - **Sub-teams**: To manage a complex source tree, the development team is divided into
   sub-teams. A sub-team is responsible for maintaining a specific component (e.g. a kernel,
-  boot loader, libraries, tools etc.). If needed, sub-team members can communicate with other
-  sub-teams, if a specific feature or bug fix affects other components.
+  boot loader, libraries, specific tool etc.). If needed, sub-team members can communicate
+  with other sub-teams, if a specific feature or bug fix affects other components.
