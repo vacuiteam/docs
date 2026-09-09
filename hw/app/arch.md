@@ -21,4 +21,4 @@ They are needed to contain persistent and critical data.
 ## Storage Units
 
 - **Drive Storage Unit (DSU)** contains a raw stream of bytes. It is used by a guest program
-  to manage its filesystem.
+  to manage a filesystem.
