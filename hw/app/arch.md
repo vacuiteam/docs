@@ -9,8 +9,8 @@ system, prevent a guest program from accessing specific memory, change the curre
 Despite having these permissions, they are formally restricted from doing these operations
 to ensure the stability of the hardware.
 
-Storage units consists of data managed by control units, but owned by a guest program.
-They are needed to contain persistent and critical data.
+Storage units consists of data managed by a control unit (SCU), but actually owned
+by a guest program. They contain persistent and critical data (e.g. a filesystem).
 
 ## Control Units
 
@@ -21,6 +21,8 @@ They are needed to contain persistent and critical data.
   handler of a guest program.
 - **Interrupt Manager Control Unit (IMCU)** generates an interrupt (e.g. a timer interrupt) on request
   and calls its corresponding handler.
+- **Storage Control Unit (SCU)** provides a guest program with centralized functionality to manage memory
+  in storage units.
 
 ## Storage Units
 
