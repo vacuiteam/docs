@@ -22,7 +22,7 @@ as raw bytes.
   handler of a guest program.
 - **Interrupt Manager Control Unit (IMCU)** generates an interrupt (e.g. a timer interrupt) on request
   and calls its corresponding handler.
-- **Storage Control Unit (SCU)** provides a guest program with centralized functionality to manage memory
+- **Storage Control Unit (SCU)** provides a guest program with centralized functionality to manage data
   in storage units.
 
 ## Storage Units
