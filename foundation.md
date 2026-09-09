@@ -59,8 +59,8 @@ The work principles, which are shown below, are not mutually exclusive.
 
 **Document It** - Document your component, its architecture and behavior
 instead of dreaming it. It must be done before writing code. It reduces cost
-of making changes in future. Ensure somebody else can implement a component ONLY
-following a component's specification. If they do not, fix a specification.
+of making changes in future. Your colleagues need to know about your ideas
+instead of waiting for you to finish code.
 
 **Make It Once** - If you program the same piece of code (such as string manipulation,
 utility functions) over and over again in various components, you should make it
