@@ -20,7 +20,7 @@ in the documentation.
 
 _Note: Some of them may be missing which is explicitly stated._
 
-- [Hardware Memory Layout](./memory.md) **missing**
+- [Hardware Memory Layout](./memory.md)
 - [Hardware Configuration](./config.md)
 - [Hardware Architecture](./arch.md) **missing**
 - [Hardware Control Units](./control-units.md) **missing**
