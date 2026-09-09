@@ -10,7 +10,8 @@ Despite having these permissions, they are formally restricted from doing these 
 to ensure the stability of the hardware.
 
 Storage units consists of data managed by a control unit (SCU), but actually owned
-by a guest program. They contain persistent and critical data (e.g. a filesystem).
+by a guest program. They contain persistent and critical data (e.g. a filesystem)
+as raw bytes.
 
 ## Control Units
 
@@ -26,5 +27,4 @@ by a guest program. They contain persistent and critical data (e.g. a filesystem
 
 ## Storage Units
 
-- **Drive Storage Unit (DSU)** consist of raw bytes. Generally, It is used by a guest program
-  to manage a filesystem.
+- **Drive Storage Unit (DSU)** is used by a guest program to manage a filesystem.
