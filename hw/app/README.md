@@ -18,9 +18,12 @@ in the documentation.
 
 # Documents
 
-_Note: Some of them may be missing which is explicitly stated._
+## General 
 
 - [Hardware Memory Layout](./memory.md)
 - [Hardware Configuration](./config.md)
 - [Hardware Architecture](./arch.md)
-- [Hardware Control Units](./control-units.md) **missing**
+
+## Control units
+
+- [RCU](./control_units/rcu.md)
