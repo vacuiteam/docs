@@ -5,9 +5,9 @@
 The architecture of **Vacui VirtualHW** relies on **control and storage units**.
 
 Control units manage the processor's state and hardware itself. They can disable and reboot
-system, prevent a guest program accessing specific memory, change the current ring mode etc.
-Despite having these permissions, they are restricted from doing these operations to ensure
-the hardware stability
+system, prevent a guest program from accessing specific memory, change the current ring mode etc.
+Despite having these permissions, they are formally restricted from doing these operations
+to ensure the stability of the hardware.
 
 Storage units consists of data managed by control units, but owned by a guest program.
 They are needed to contain persistent and critical data.
