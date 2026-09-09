@@ -23,7 +23,3 @@ in the documentation.
 - [Hardware Memory Layout](./memory.md)
 - [Hardware Configuration](./config.md)
 - [Hardware Architecture](./arch.md)
-
-## Control units
-
-- [RCU](./control_units/rcu.md)
