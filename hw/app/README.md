@@ -18,7 +18,7 @@ in the documentation.
 
 # Documents
 
-## General 
+## General
 
 - [Hardware Memory Layout](./memory.md)
 - [Hardware Configuration](./config.md)
