@@ -25,6 +25,11 @@ as raw bytes.
 - **Storage Control Unit (SCU)** provides a guest program with centralized functionality to manage data
   in storage units.
 
+As shown in the [hardware memory layout](./memory.md), all control units are given a 16KiB block
+in the **MMIO Ports** region. A guest program writes specific values to the ports within the block
+(e.g. to prepare a control unit before doing specific operations). The block has a unique starting physical
+address, followed by the base address of the **MMIO Ports** region.
+
 ## Storage Units
 
 - **Drive Storage Unit (DSU)** is used by a guest program to manage a filesystem.
