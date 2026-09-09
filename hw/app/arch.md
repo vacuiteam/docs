@@ -17,6 +17,8 @@ They are needed to contain persistent and critical data.
 - **Ring Control Unit (RCU)** manages the processor's ring mode.
 - **Memory Control Unit (MCU)** restricts programs, running in the user ring, from accessing
   kernel memory.
+- **System Call Control Unit (SCCU)** captures an occurred system call and calls a system call
+  handler of a guest program.
 
 ## Storage Units
 
