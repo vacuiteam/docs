@@ -1,6 +1,13 @@
 # Introduction
 
 **Vacui HW Application** is a sub-component of **Vacui HW**. It is a virtual hardware emulator
-program running provided guest code (it can be anything, not only VacuiOS). **WARNING**:
-Notice that it emulates virtual hardware which means the hardware does not exist physically,
-therefore, you may see missing details, which are required in physical hardware documentation.
+program running provided guest code (it can be anything, not only **VacuiOS**). The emulator
+relies on [Unicorn Engine](https://www.unicorn-engine.org) to execute the guest code.
+
+# Documents
+
+_Note: Some of them may be missing which is explicitly stated._
+
+- [Hardware Memory Layout](./memory.md) **missing**
+- [Hardware Architecture](./arch.md) **missing**
+- [Hardware Control Units](./control-units.md) **missing**
