@@ -26,5 +26,5 @@ by a guest program. They contain persistent and critical data (e.g. a filesystem
 
 ## Storage Units
 
-- **Drive Storage Unit (DSU)** contains a raw stream of bytes. It is used by a guest program
+- **Drive Storage Unit (DSU)** consist of raw bytes. Generally, It is used by a guest program
   to manage a filesystem.
