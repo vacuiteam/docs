@@ -21,7 +21,7 @@ as raw bytes.
 - **System Call Control Unit (SCCU)** captures an occurred system call and calls a system call
   handler of a guest program.
 - **Interrupt Manager Control Unit (IMCU)** generates an interrupt (e.g. a timer interrupt) on request
-  and calls its corresponding handler.
+  and calls its corresponding handler, set by a guest program.
 - **Storage Control Unit (SCU)** provides a guest program with centralized functionality to manage data
   in storage units.
 
