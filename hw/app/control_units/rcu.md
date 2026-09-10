@@ -13,7 +13,7 @@ It has no dependencies, since other control units rely on it.
 ## Services
 
 The RCU does not check who requests its services, because it does
-not expose them to a guest program except the control units already, 
+not expose them to a guest program except the control units, 
 therefore, additional checks are meaningless.
 
 - The RCU has the following services: **switching the processor's ring mode**
