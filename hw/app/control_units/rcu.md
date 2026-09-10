@@ -3,22 +3,12 @@
 ## Overview
 
 The RCU (stands for **R**ing **C**ontrol **U**nit) is a part of **Vacui VirtualHW**.
-It has the following responsibilities:
+It is responsible for managing the processor's ring mode.
 
-- managing the processor's ring mode
-- providing the control units with functionality to manage the ring mode.
+## Goals
 
-It has no dependencies, since other control units rely on it.
+- Providing functionality to inspect the current processor's ring mode.
 
-## Services
-
-- The RCU does not check who requests its services, because it does not expose them to a guest program
-  except the control units, therefore, additional checks are meaningless.
-
-- The RCU has the following services: **switching the processor's ring mode**
-  and **inspecting the current processor's ring mode**.
-
-## Ring Modes
-
-The RCU supports switching between the ring modes supported by the IA32 architecture, although 
-**Ring 1** and **Ring 2** are missing. Available ring modes: **Ring 0**, **Ring 1**.
+- Providing functionality to enable temporary lock flag that is needed to
+  prevent the processor's ring mode from being switched during critical
+  operations.
