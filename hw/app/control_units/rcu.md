@@ -11,12 +11,20 @@ of **Vacui VirtualHW**. It is responsible for managing the processor's ring mode
 
 - Providing functionality to inspect the current processor's ring mode.
 
-- Providing functionality to enable temporary lock flag that is needed to
-  prevent the processor's ring mode from being switched during critical
-  operations.
+- Providing functionality to enter readonly modification state to prevent
+  accidental processor mode switches during critical operations.
 
 ## Ring Modes
 
-At the moment, the RCU supports a pair of ring modes excluding **Ring 1**
-and **Ring 2** - **Ring 0** and **Ring 3**. This choice corresponds to the
-IA32 processor architecture.
+At the moment, the RCU supports a pair of ring modes excluding **Ring 1** and **Ring 2**:
+**Ring 0** (kernel and drivers) and **Ring 3** (user). This choice corresponds
+to the IA32 processor architecture.
+
+## Functionality
+
+As mentioned in the **"Goals"** chapter, the RCU has the following functionality:
+
+- Inspection of the RCU's information consisting of the current processor's ring mode
+  and modification state.
+
+- Switching the modification state and processor's ring mode.
