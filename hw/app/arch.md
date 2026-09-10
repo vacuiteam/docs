@@ -25,7 +25,7 @@ as raw bytes.
 - **Storage Control Unit (SCU)** provides a guest program with centralized functionality to manage data
   in storage units.
 
-All control units are given a 16KiB block in the **MMIO Ports** region, which is shown in
+All control units are given a `16KiB-1` block in the **MMIO Ports** region, which is shown in
 [hardware memory layout document](./memory.md). A guest program writes specific values to the ports
 within the block (e.g. to prepare a control unit before doing specific operations). The block
 has a unique starting physical address, followed by the base address of the **MMIO Ports** region.
