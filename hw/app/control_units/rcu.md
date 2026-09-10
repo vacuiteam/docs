@@ -13,12 +13,12 @@ It has no dependencies, since other control units rely on it.
 ## Services
 
 - The RCU does not check who requests its services, because it does not expose them to a guest program
-except the control units, therefore, additional checks are meaningless.  
+  except the control units, therefore, additional checks are meaningless.
 
 - The RCU has the following services: **switching the processor's ring mode**
   and **inspecting the current processor's ring mode**.
 
 ## Ring Modes
 
-The RCU supports switching between ring modes available in the IA32 architecture, although support
-for **Ring 1** and **Ring 2** is missing.
+The RCU supports switching between the ring modes supported by the IA32 architecture, although 
+**Ring 1** and **Ring 2** are missing. Available ring modes: **Ring 0**, **Ring 1**.
