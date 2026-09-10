@@ -2,8 +2,10 @@
 
 ## Overview
 
-The RCU (stands for **R**ing **C**ontrol **U**nit) is a part of **Vacui VirtualHW**.
-It is responsible for managing the processor's ring mode.
+**Description**: The RCU (stands for **R**ing **C**ontrol **U**nit) is a part
+of **Vacui VirtualHW**. It is responsible for managing the processor's ring mode.
+
+**MMIO Ports Block range**: `0x07000000` ... `0x7003FFF`.
 
 ## Goals
 
