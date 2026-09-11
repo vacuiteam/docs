@@ -7,7 +7,7 @@ Victus is a development tool that orchestrates building process in C/C++ compone
 ## Goals
 
 - Provide a centralized way to build C/C++ components in **VacuiOS** to avoid
-  writing boilerplate configurations.
+  fragmentation.
 
 - Allow replacing compilers and linker through using toolchains, along with
   forcing specific toolchain.
