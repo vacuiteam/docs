@@ -21,7 +21,7 @@ There are two types: **workspace** and **regular**.
 
 A module consists of the general and type-specific information.
 
-The general information consists of:
+The general information consists of the following:
 
 - `general.type` (`string`) - The module type. Allowed values: `"workspace"`, and `"regular"`.
 
@@ -37,3 +37,17 @@ information are activated, which are shown in subsequent chapters.
 - `info.regular.destination_path` (`string`) - The path to a destination file.
 - `info.regular.objects_dir_path` (`string`) - The path to an objects directory path.
 - `info.regular.dependencies` (`string[]`) - The dependencies list built first before the parent regular module.
+
+## Toolchains
+
+Toolchains are configuration files like modules that specify C and C++ compilers, a linker
+and its additional flags used during compilation.
+
+The toolchain consists of the following:
+
+- `c_compiler` (`string`)
+- `cxx_compiler` (`string`)
+- `linker` (`string`)
+- `additional_c_flags` (`string[]`)
+- `additional_cxx_flags` (`string[]`)
+- `additional_linker_flags` (`string[]`)
