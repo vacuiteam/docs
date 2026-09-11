@@ -51,3 +51,20 @@ The toolchain consists of the following:
 - `additional_c_flags` (`string[]`)
 - `additional_cxx_flags` (`string[]`)
 - `additional_linker_flags` (`string[]`)
+
+## Commands
+
+There are several commands: `help` and `check`. Subsequent chapters describe their behavior,
+arguments and flags.
+
+### `help`
+
+This command prints a list of available commands to a user.
+
+### `check`
+
+This command provides functionality to check whether required development tools are installed
+on a local computer. Required development tools are:
+
+- Git
+- Golang (including its formatter (`gofmt`), documentation tool (`godoc`) and compiler (`go`))
