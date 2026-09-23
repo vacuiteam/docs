@@ -12,8 +12,8 @@ guest code's memory access.
 - Providing a way to setup general memory protection mechanisms to a guest program,
   running in kernel mode.
 
-## Memory Protection Mechanisms
+## Memory Protection
 
 As mentioned in the **"Goals"** chapter, MCU provides general memory protection mechanisms
 (such as paging, virtual memory). Unlike in the classic IA32 architecture, the procedure
-of setting the mechanisms is different, because the control registers are not involved.
+of setting the mechanisms up is different, since the control registers are not involved.
