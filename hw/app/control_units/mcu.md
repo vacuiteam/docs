@@ -9,7 +9,7 @@ guest code's memory access.
 
 ## Goals
 
-- Providing a way to setup general memory protection mechanisms to a guest program,
+- Providing a guest program with the way to set the memory protection mechanisms up,
   running in kernel mode.
 
 ## Memory Protection
