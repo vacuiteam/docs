@@ -27,3 +27,4 @@ in the documentation.
 ## Control Units
 
 - [Ring Control Unit](./control_units/rcu.md)
+- [Memory Control Unit](./control_units/mcu.md)
