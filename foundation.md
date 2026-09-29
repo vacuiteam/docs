@@ -60,7 +60,7 @@ The work principles, which are shown below, are not mutually exclusive.
 **Document It** - Document your component, its architecture and behavior
 instead of dreaming it. It reduces cost of making changes in future
 when you discuss a new idea with your colleagues. This is not always necessary,
-you can a hybrid approach: **writing docs + programming code of your idea.
+you can use a hybrid approach: **writing docs + programming code of your idea.
 
 **Make It Once** - If you program the same piece of code (such as string manipulation,
 utility functions) over and over again in various components, you should make it
